@@ -37,7 +37,7 @@
 <h1>房源列表</h1>
 </div>
 	<form id="houseForm" name="houseForm"
-		action="${pageContext.request.contextPath}/houselist.action"
+		action="/houselist.action"
 		method=post >
 						 <div class="result-title">
                     <div class="result-list">

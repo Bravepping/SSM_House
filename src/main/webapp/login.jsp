@@ -25,21 +25,21 @@
 
     <div class="container">
         <h1>房屋租赁系统</h1>
-        <form class="form" id="loginform" action="logincheck.action" method="post">
+        <form class="form" id="loginform" action="adminlogin.action" method="post">
             <div><input type="text" name="username" placeholder="用户名" ></div>
             <div><input type="password" name="password" placeholder="密码" ></div>
-            <input id="zuke" type="hidden" name="type" value="zuke"  checked/> 用户
+            <input id="admin" type="hidden" name="type" value="admin"  checked/>管理员
             <div>
-<%--                <label class="radio inline">--%>
-<%--                    <input id="admin" type="radio" name="type" value="admin"  checked/> 管理员--%>
-<%--                </label>--%>
-<%--                <label class="radio inline">--%>
-<%--                    <input id="zuke" name="type" value="zuke"/> 租客--%>
-<%--                </label>--%>
+                <%--                <label class="radio inline">--%>
+                <%--                    <input id="admin" type="radio" name="type" value="admin"  checked/> 管理员--%>
+                <%--                </label>--%>
+                <%--                <label class="radio inline">--%>
+                <%--                    <input id="zuke" name="type" value="zuke"/> 租客--%>
+                <%--                </label>--%>
             </div>
 
             <button type="submit" id="login-button">登录</button>
-            <br><br><h4 align="center"><a href="resgiter.jsp">注册用户</a></h4>
+<%--            <br><br><h4 align="center"><a href="/resgiter.jsp">注册用户</a></h4>--%>
         </form>
     </div>
     <ul class="bg-bubbles">

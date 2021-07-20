@@ -35,7 +35,7 @@
 <h1>待处理报障</h1>
 </div>
 	<form id="houseForm" name="houseForm"
-		action="${pageContext.request.contextPath}/wrong/mywronglist.action"
+		action="/wrong/mywronglist.action"
 		method=post >
 						 <div class="result-title">
                     <div class="result-list">

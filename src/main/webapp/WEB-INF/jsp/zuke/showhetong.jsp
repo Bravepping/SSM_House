@@ -32,7 +32,7 @@
 </head>
 <body>
 <div><br />
-	<form name="hetong" action="${pageContext.request.contextPath}/hetong/updatehetong.action">
+	<form name="hetong" action="/hetong/updatehetong.action">
 	<div class="title">房屋租赁合同</div>
 	<input type="hidden" name="house_id" value="${hetong.house_id}"/>
 	<p>出租方：<span name="chuzu">${hetong.chuzu}</span>（以下简称甲方）；</p>　　　

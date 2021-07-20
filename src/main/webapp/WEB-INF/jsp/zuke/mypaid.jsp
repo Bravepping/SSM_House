@@ -46,7 +46,7 @@
 </div>
 <div class="search-wrap">
             <div class="search-content">
-                <form action="${pageContext.request.contextPath}/paid/findmypaid.action" method="post" name="myform">
+                <form action="/paid/findmypaid.action" method="post" name="myform">
                     <table class="search-tab">
                         <tr>
                            

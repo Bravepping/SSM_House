@@ -59,6 +59,26 @@ public class UserController {
 			modelAndView.setViewName("../../index");
 		return modelAndView;
 		}
+
+	@RequestMapping("/adminlogin")
+	public String adminlogin(User user,Model model,HttpSession httpSession) throws Exception{
+
+		User user1=userService.login(user);
+
+		if(user1!=null){
+			httpSession.setAttribute("user", user1);
+			if(user1.getType().equals("zuke")){
+				return "zuke/main";
+			}
+			else{
+				return "admin/main1";
+			}
+		}else{
+			String error="error";
+			model.addAttribute("error", error);
+			return "login";
+		}
+	}
 }
 
 

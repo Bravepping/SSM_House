@@ -74,7 +74,7 @@
                 <li>
                     <a class="a"><i class="icon-font">&#xe003;</i>房源信息</a>
                     <div class="p"><ul class="sub-menu">
-                        <li><a href="${pageContext.request.contextPath}/houselist.action"><i class="icon-font">&#xe008;</i>房源列表</a></li>
+                        <li><a href="/houselist.action"><i class="icon-font">&#xe008;</i>房源列表</a></li>
                         
        
                     </ul>
@@ -83,8 +83,8 @@
                 <li>
                     <a class="a"><i class="icon-font">&#xe018;</i>租赁信息</a>
                  <div class="p"><ul class="sub-menu">
-                        <li><a href="${pageContext.request.contextPath}/zulist/myzulist.action"><i class="icon-font">&#xe017;</i>我的租赁</a></li>
-                        <li><a href="${pageContext.request.contextPath}/checkout/getmycheckout.action"><i class="icon-font">&#xe037;</i>已退租列表</a></li>
+                        <li><a href="/zulist/myzulist.action"><i class="icon-font">&#xe017;</i>我的租赁</a></li>
+                        <li><a href="/checkout/getmycheckout.action"><i class="icon-font">&#xe037;</i>已退租列表</a></li>
                         
                     </ul>
                     </div>
@@ -92,8 +92,8 @@
                 <li>
                     <a class="a"><i class="icon-font">&#xe018;</i>我的申请</a>
                 <div class="p"><ul class="sub-menu">
-                        <li><a href="${pageContext.request.contextPath}/getmyapply.action"><i class="icon-font">&#xe017;</i>看房申请列表</a></li>
-                        <li><a href="${pageContext.request.contextPath}/applyout/getmyapplyout.action"><i class="icon-font">&#xe037;</i>退租申请列表</a></li>
+                        <li><a href="/getmyapply.action"><i class="icon-font">&#xe017;</i>看房申请列表</a></li>
+                        <li><a href="/applyout/getmyapplyout.action"><i class="icon-font">&#xe037;</i>退租申请列表</a></li>
                         
                     </ul>
                     </div>
@@ -101,23 +101,23 @@
                 <li>
                     <a class="a"><i class="icon-font">&#xe018;</i>租金信息</a>
                <div class="p">     <ul class="sub-menu">
-                        <li><a href="${pageContext.request.contextPath}/paid/mytopaidlist.action"><i class="icon-font">&#xe017;</i>待缴租金</a></li>
-                       	<li><a href="${pageContext.request.contextPath}/paid/findmypaid.action"><i class="icon-font">&#xe017;</i>已缴租金</a></li>
+                        <li><a href="/paid/mytopaidlist.action"><i class="icon-font">&#xe017;</i>待缴租金</a></li>
+                       	<li><a href="/paid/findmypaid.action"><i class="icon-font">&#xe017;</i>已缴租金</a></li>
                         
                     </ul></div>
                 </li>
                 <li>
                     <a class="a"><i class="icon-font">&#xe018;</i>报障模块</a>
                    <div class="p">    <ul class="sub-menu">
-                        <li><a href="${pageContext.request.contextPath}/wrong/showaddwrong.action"><i class="icon-font">&#xe017;</i>我要报障</a></li>
-                       	<li><a href="${pageContext.request.contextPath}/wrong/mywronglist.action"><i class="icon-font">&#xe017;</i>未处理报障</a></li>
-                        <li><a href="${pageContext.request.contextPath}/wrong/findmysolve.action"><i class="icon-font">&#xe017;</i>已处理报障</a></li>
+                        <li><a href="/wrong/showaddwrong.action"><i class="icon-font">&#xe017;</i>我要报障</a></li>
+                       	<li><a href="/wrong/mywronglist.action"><i class="icon-font">&#xe017;</i>未处理报障</a></li>
+                        <li><a href="/wrong/findmysolve.action"><i class="icon-font">&#xe017;</i>已处理报障</a></li>
                     </ul></div>
                 </li>
                 <li>
                     <a class="a"><i class="icon-font">&#xe018;</i>其他操作</a>
                   <div class="p">   <ul class="sub-menu">
-                        <li><a href="${pageContext.request.contextPath}/findhasuserlist.action"><i class="icon-font">&#xe017;</i>账户绑定</a></li>
+                        <li><a href="/findhasuserlist.action"><i class="icon-font">&#xe017;</i>账户绑定</a></li>
                        	
                         
                     </ul></div>

@@ -14,7 +14,7 @@
 </head>
 <body>
 <div align="center">
-    <form action="<c:url value="/resgiter.action"/>" method="post">
+    <form action="resgiter.jsp" method="post">
         用户名<input type="text" name="username"><br>
         密码<input type="password" name="password"><br>
         <input type="submit" value="注册"><br>

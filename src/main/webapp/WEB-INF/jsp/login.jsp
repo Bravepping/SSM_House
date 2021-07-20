@@ -11,14 +11,14 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>房屋租赁系统</title>
-<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/styles.css">
+<link rel="stylesheet" type="text/css" href="/css/styles.css">
 </head>
 <body>
 <div class="wrapper">
 
 	<div class="container">
 		<h1>房屋租赁系统</h1>
-		<form class="form" id="loginform" action="${pageContext.request.contextPath}/logincheck.action" method="post">
+		<form class="form" id="loginform" action="/logincheck.action" method="post">
 			<div><input type="text" name="username" placeholder="用户名" ></div>
 			<div><input type="password" name="password" placeholder="密码" ></div>
 			<div>
@@ -48,10 +48,10 @@
 	</ul>
 </div>
 
-<script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery-2.1.1.min.js"></script>
-<script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery.validate.min.js"></script>
+<script type="text/javascript" src="/js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="/js/jquery.validate.min.js"></script>
 <script type="text/javascript"
-    src="${pageContext.request.contextPath}/js/localization/messages_zh.js"></script>
+    src="/js/localization/messages_zh.js"></script>
 <script type="text/javascript">
 
 

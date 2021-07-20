@@ -34,7 +34,7 @@
 <h1>已退租列表</h1>
 </div>
 	<form id="houseForm" name="houseForm"
-		action="${pageContext.request.contextPath}/checkout/getmycheckout.action"
+		action="/checkout/getmycheckout.action"
 		method=post >
 						 <div class="result-title">
                     <div class="result-list">

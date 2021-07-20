@@ -40,7 +40,7 @@
 <div class="result-title">
 <h1>待缴租金列表</h1>
 </div>
-                <form action="${pageContext.request.contextPath}/paid/mytopaidlist.action" method="post" name="myform">
+                <form action="/paid/mytopaidlist.action" method="post" name="myform">
                   
                 
             

@@ -32,7 +32,7 @@
 			<h1>退租申请列表</h1>
 		</div>
 		<form id="houseForm" name="houseForm"
-			action="${pageContext.request.contextPath}/applyout/getmyapplyout.action" method=post>
+			action="/applyout/getmyapplyout.action" method=post>
 			<div class="result-title">
 				<div class="result-list"></div>
 			</div>
